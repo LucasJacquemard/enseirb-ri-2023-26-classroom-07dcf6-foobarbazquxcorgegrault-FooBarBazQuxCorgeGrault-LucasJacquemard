@@ -12,6 +12,7 @@ public class Foo {
 
     public Foo(Bar bar) {
         this.bar = bar;
+        this.qux = new Qux();
     }
 
     public void addBaz(final Baz baz) {
