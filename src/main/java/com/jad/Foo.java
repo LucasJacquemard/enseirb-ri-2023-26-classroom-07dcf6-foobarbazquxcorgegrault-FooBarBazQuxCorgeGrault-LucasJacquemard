@@ -13,6 +13,7 @@ public class Foo {
     public Foo(Bar bar) {
         this.bar = bar;
         this.qux = new Qux();
+        this.corge = null;
     }
 
     public void addBaz(final Baz baz) {
